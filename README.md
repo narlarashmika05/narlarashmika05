@@ -29,7 +29,7 @@
 
   PLACEHOLDER — replace this whole line by dragging your file in step 2 above:
 -->
-<img src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/hero-punch.webp" width="360" />
+<img src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/hero-punch.webp"  />
 
 </div>
 
