@@ -81,20 +81,7 @@ class Dev:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                        GITHUB STATS                                 -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### `github --stats`
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=narlarashmika05&show_icons=true&hide_border=true&bg_color=0B1F16&title_color=39FFC1&icon_color=6FBF9B&text_color=E8FFF4&ring_color=39FFC1" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=narlarashmika05&hide_border=true&background=0B1F16&ring=39FFC1&fire=6FBF9B&currStreakLabel=39FFC1&sideLabels=E8FFF4&currStreakNum=E8FFF4&sideNums=E8FFF4&dates=6FBF9B" />
-</p>
-
-<p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=narlarashmika05&layout=compact&hide_border=true&bg_color=0B1F16&title_color=39FFC1&text_color=E8FFF4" />
-</p>
 
 ---
 
