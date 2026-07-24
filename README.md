@@ -15,7 +15,7 @@
   4. muted + playsinline = autoplay works with zero sound, on GitHub and mobile.
 -->
 
-<video src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/hero-punch.mp4"
+<video src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/assets/hero-punch.mp4"
        width="360" autoplay loop muted playsinline controls>
 </video>
 
