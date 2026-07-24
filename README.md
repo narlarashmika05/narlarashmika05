@@ -125,16 +125,7 @@ class QueenDev:
 <!--                        GITHUB STATS                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-### 📊 `github --stats`
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=narlarashmika05&show_icons=true&theme=radical&hide_border=true&bg_color=150019&title_color=D4AF37&icon_color=F4E1B5&text_color=FFFFFF&ring_color=D4AF37" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=narlarashmika05&theme=radical&hide_border=true&background=150019&ring=D4AF37&fire=F4E1B5&currStreakLabel=D4AF37&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=888888" />
-</p>
-
-<p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=narlarashmika05&layout=compact&theme=radical&hide_border=true&bg_color=150019&title_color=D4AF37&text_color=FFFFFF" />
-</p>
 
 ---
 
