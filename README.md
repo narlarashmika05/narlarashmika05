@@ -52,9 +52,7 @@
   <rect x="0" y="205" width="800" height="8" fill="#D4AF37" opacity="0.2"/>
   <rect x="0" y="213" width="800" height="4" fill="#D4AF37" opacity="0.1"/>
 
-  <text x="400" y="205" font-family="monospace" font-size="10" fill="#D4AF37" text-anchor="middle" opacity="0.85">
-    ✦ CODE LIKE ROYALTY ✦
-  </text>
+  
 </svg>
 
 </div>
