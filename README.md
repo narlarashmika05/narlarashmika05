@@ -1,52 +1,136 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--              SOFT EMERALD ✦ PIXEL PROFILE HEADER                    -->
+<!--         SOFT EMERALD ✦ ANIMATED PIXEL HERO HEADER                   -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<img src="./assets/profile.png" width="180" alt="profile pixel art" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3200&pause=1200&color=D4AF37&center=true&vCenter=true&width=750&height=70&lines=HI%2C+I'M+RASHMIKA+%F0%9F%8C%B8;AI+%2B+FULL-STACK+DEVELOPER;WELCOME+TO+MY+WORLD" alt="Typing SVG" />
 
-<!-- Soft emerald & gold pixel banner -->
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated;">
+<!--
+  IMPORTANT SETUP NOTE (delete once done):
+  This SVG references your character art at:
+    https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/profile.png
+  1. Commit your uploaded image to  assets/profile.png  in this repo.
+  2. If your default branch is "master" instead of "main", change that word
+     in the href="" URL below (search this file for "raw.githubusercontent").
+  3. The animation only looks right if the PNG background is transparent.
+     If it currently has a solid white background, remove it first
+     (e.g. remove.bg, Photopea "magic wand" + delete, or any bg-removal tool).
+-->
+
+<svg width="420" height="560" viewBox="0 0 420 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="image-rendering: pixelated;">
   <defs>
-    <pattern id="lattice" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+    <pattern id="lattice2" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="36" y2="36" stroke="#D4AF3722" stroke-width="0.6"/>
       <line x1="36" y1="0" x2="0" y2="36" stroke="#D4AF3722" stroke-width="0.6"/>
     </pattern>
-    <linearGradient id="softBg" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="softBg2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0b1f16"/>
       <stop offset="100%" stop-color="#123024"/>
     </linearGradient>
+    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5C2C2" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="800" height="200" fill="url(#softBg)"/>
-  <rect width="800" height="200" fill="url(#lattice)"/>
 
-  <!-- Pixel flower motif, centered (soft, not a crown) -->
-  <rect x="392" y="30" width="16" height="16" fill="#F5C2C2"/>
-  <rect x="376" y="46" width="16" height="16" fill="#F5C2C2"/>
-  <rect x="408" y="46" width="16" height="16" fill="#F5C2C2"/>
-  <rect x="392" y="62" width="16" height="16" fill="#F5C2C2"/>
-  <rect x="392" y="46" width="16" height="16" fill="#D4AF37"/>
-  <rect x="396" y="82" width="8" height="20" fill="#4E7A63"/>
+  <!-- background -->
+  <rect width="420" height="560" fill="url(#softBg2)"/>
+  <rect width="420" height="560" fill="url(#lattice2)"/>
 
-  <!-- Pixel gems scattered, soft -->
-  <rect x="120" y="140" width="12" height="12" fill="#D4AF37" opacity="0.75"/>
-  <rect x="150" y="120" width="12" height="12" fill="#F5C2C2" opacity="0.7"/>
-  <rect x="180" y="150" width="12" height="12" fill="#D4AF37" opacity="0.6"/>
-  <rect x="640" y="130" width="12" height="12" fill="#F5C2C2" opacity="0.7"/>
-  <rect x="670" y="155" width="12" height="12" fill="#D4AF37" opacity="0.75"/>
-  <rect x="700" y="120" width="12" height="12" fill="#D4AF37" opacity="0.5"/>
+  <!-- ambient stars, twinkling independently -->
+  <rect x="30" y="40" width="5" height="5" fill="#F5C2C2" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="370" y="70" width="5" height="5" fill="#F5C2C2" opacity="0.5">
+    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="55" y="480" width="5" height="5" fill="#D4AF37" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="360" y="490" width="5" height="5" fill="#D4AF37" opacity="0.6">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.1s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Pixel stars scattered -->
-  <rect x="60" y="40" width="5" height="5" fill="#F5C2C2" opacity="0.8"/>
-  <rect x="90" y="70" width="5" height="5" fill="#F5C2C2" opacity="0.5"/>
-  <rect x="720" y="50" width="5" height="5" fill="#F5C2C2" opacity="0.8"/>
-  <rect x="740" y="90" width="5" height="5" fill="#F5C2C2" opacity="0.4"/>
+  <!-- ambient power aura, pulsing continuously behind her -->
+  <circle cx="210" cy="300" r="120" fill="url(#auraGlow)">
+    <animate attributeName="r" values="110;135;110" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
 
-  <rect x="0" y="185" width="800" height="8" fill="#D4AF37" opacity="0.18"/>
-  <text x="400" y="185" font-family="monospace" font-size="10" fill="#D4AF37" text-anchor="middle" opacity="0.85">
+  <!-- ring pulses, staggered -->
+  <circle cx="210" cy="300" r="100" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="60;150" dur="3s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="210" cy="300" r="100" fill="none" stroke="#F5C2C2" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="60;150" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ================= HERO GROUP (bob + windup/punch/recoil) ================= -->
+  <g>
+    <!-- idle bob, continuous -->
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="2s" repeatCount="indefinite" additive="sum"/>
+
+    <g>
+      <!-- punch windup / thrust / recoil cycle, 4s loop -->
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 210 470; -5 210 470; 8 210 470; -2 210 470; 0 210 470; 0 210 470"
+        keyTimes="0; 0.45; 0.55; 0.62; 0.72; 1"
+        dur="4s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -4 0; 22 0; -6 0; 0 0; 0 0"
+        keyTimes="0; 0.45; 0.55; 0.62; 0.72; 1"
+        dur="4s" repeatCount="indefinite" additive="sum"/>
+
+      <!-- your pixel character -->
+      <image href="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/profile.png"
+             xlink:href="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/main/assets/profile.png"
+             x="90" y="150" width="240" height="330" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+  </g>
+
+  <!-- ================= FIST OVERLAY (only visible during the punch) ================= -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.55;0.65;0.72;1" dur="4s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="200 300; 200 300; 280 300; 300 295; 200 300; 200 300"
+        keyTimes="0;0.5;0.58;0.63;0.72;1"
+        dur="4s" repeatCount="indefinite"/>
+      <!-- simple pixel fist: sleeve cuff + fist block -->
+      <rect x="-14" y="-10" width="18" height="18" fill="#0f2e22"/>
+      <rect x="2" y="-14" width="22" height="24" fill="#d99a6c"/>
+      <rect x="6" y="-18" width="6" height="6" fill="#d99a6c"/>
+      <rect x="14" y="-18" width="6" height="6" fill="#d99a6c"/>
+    </g>
+  </g>
+
+  <!-- ================= IMPACT BURST (star + POW text + sparks) ================= -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.58;0.62;0.7;1" dur="4s" repeatCount="indefinite"/>
+    <g transform="translate(300,290)">
+      <animateTransform attributeName="transform" type="scale" values="0.4;1.3;1" keyTimes="0;0.6;1" dur="4s" repeatCount="indefinite" additive="sum"/>
+      <polygon points="0,-22 6,-6 22,0 6,6 0,22 -6,6 -22,0 -6,-6" fill="#D4AF37"/>
+      <text x="0" y="5" font-family="monospace" font-size="10" fill="#0b1f16" text-anchor="middle" font-weight="bold">POW</text>
+    </g>
+
+    <!-- sparks flying outward -->
+    <rect x="298" y="288" width="6" height="6" fill="#F5C2C2">
+      <animateMotion path="M0,0 L40,-25" dur="4s" keyTimes="0;1" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="298" y="288" width="6" height="6" fill="#D4AF37">
+      <animateMotion path="M0,0 L45,10" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="298" y="288" width="6" height="6" fill="#F5C2C2">
+      <animateMotion path="M0,0 L20,40" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0" y="530" width="420" height="6" fill="#D4AF37" opacity="0.18"/>
+  <text x="210" y="550" font-family="monospace" font-size="10" fill="#D4AF37" text-anchor="middle" opacity="0.85">
     ✦ CODE, CRAFTED WITH CARE ✦
   </text>
 </svg>
@@ -97,6 +181,20 @@ class Dev:
 </td>
 </tr>
 </table>
+
+<!-- ================= FUN "POWER LEVEL" HUD BAR ================= -->
+<div align="center">
+
+<svg width="500" height="60" viewBox="0 0 500 60" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="60" fill="#0b1f16"/>
+  <text x="10" y="20" font-family="monospace" font-size="11" fill="#D4AF37">POWER LEVEL</text>
+  <rect x="10" y="30" width="480" height="14" fill="#123024" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="12" y="32" width="0" height="10" fill="#F5C2C2">
+    <animate attributeName="width" from="0" to="410" dur="2s" begin="0.3s" fill="freeze"/>
+  </rect>
+</svg>
+
+</div>
 
 ---
 
