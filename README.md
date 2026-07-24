@@ -1,37 +1,44 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--   Font: Orbitron  ·  Palette: deep emerald base + shiny mint shine   -->
-<!--   (colors pulled from the dress: dark kurta green + pale dupatta)   -->
+<!--   Font: Press Start 2P (pixel) everywhere GitHub allows a font       -->
+<!--   Palette: deep emerald base + shiny mint shine (from the dress)     -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3200&pause=1200&color=39FFC1&background=00000000&center=true&vCenter=true&width=750&height=70&lines=HI%2C+I'M+RASHMIKA;AI+%2B+FULL-STACK+DEVELOPER;WELCOME+TO+MY+WORLD" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=18&duration=3200&pause=1200&color=39FFC1&background=00000000&center=true&vCenter=true&width=750&height=70&lines=HI%2C+I'M+RASHMIKA;AI+%2B+FULL-STACK+DEVELOPER;WELCOME+TO+MY+WORLD" alt="Typing SVG" />
 
 <!--
-  VIDEO SETUP NOTE (delete once done):
-  1. Export a short clip (5-8s is plenty), NO audio track, as .mp4.
-  2. Commit it to this repo at:  assets/hero-punch.mp4
-  3. If your default branch is "master" not "main", edit the src= URL below.
-  4. muted + playsinline = autoplay works with zero sound, on GitHub and mobile.
--->
+  ══════════════ VIDEO — READ THIS, IT'S THE ONLY PART THAT WORKS ══════════════
+  GitHub strips <video src="raw.githubusercontent.com/..."> tags. Always. There is
+  no markup workaround for this — it isn't a missing-file problem, it's a hard
+  platform restriction. The ONLY reliable way to get a real, audio-free playable
+  video is:
 
-<video src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/assets/hero-punch.mp4"
-       width="360" autoplay loop muted playsinline controls>
-</video>
+    1. Go to this file on GitHub.com and click the pencil (Edit) icon.
+    2. Drag your exported video (no audio track, keep it short/small) straight
+       into the text edit box.
+    3. GitHub uploads it and auto-inserts a link that looks like:
+       https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    4. Delete the placeholder line below and leave GitHub's auto-inserted line
+       in its place — do not wrap it in a <video> tag, GitHub renders it as a
+       native player automatically. It won't autoplay/loop (GitHub doesn't allow
+       that), but since there's no audio track, clicking play is silent either way.
+
+  PLACEHOLDER — replace this whole line by dragging your file in step 2 above:
+-->
+[drag your video here via GitHub's editor — see comment above]
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                        ABOUT ME SECTION                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=260&height=32&lines=whoami" />
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### `whoami`
 
 ```
 ┌──────────────────────────────────────┐
@@ -45,7 +52,9 @@
 </td>
 <td width="50%" valign="top">
 
-### `what_i_build`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=280&height=30&lines=what_i_build" />
+</div>
 
 ```python
 class Dev:
@@ -68,38 +77,47 @@ class Dev:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                       TECH STACK                                    -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=340&height=32&lines=tech_stack+--list" />
+</div>
 
-### `tech_stack --list`
-
+<p align="center">
 <img src="https://skillicons.dev/icons?i=java,python,js,react,spring,flask,html,css,mysql,mongodb,git,github&theme=dark&perline=12" />
+</p>
 
-**AI / ML:** TensorFlow · Scikit-learn · PyTorch · HuggingFace Transformers · Ollama · NLP
-**Core CS:** DSA · OOP · DBMS · Operating Systems · Computer Networks
+<p align="center">
+<b>AI / ML:</b> TensorFlow · Scikit-learn · PyTorch · HuggingFace Transformers · Ollama · NLP<br/>
+<b>Core CS:</b> DSA · OOP · DBMS · Operating Systems · Computer Networks
+</p>
 
 ---
 
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=320&height=32&lines=github+--stats" />
+</div>
 
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=narlarashmika05&show_icons=true&hide_border=true&bg_color=0B1F16&title_color=39FFC1&icon_color=6FBF9B&text_color=E8FFF4&ring_color=39FFC1" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=narlarashmika05&hide_border=true&background=0B1F16&ring=39FFC1&fire=6FBF9B&currStreakLabel=39FFC1&sideLabels=E8FFF4&currStreakNum=E8FFF4&sideNums=E8FFF4&dates=6FBF9B" />
+</p>
+
+<p align="center">
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=narlarashmika05&layout=compact&hide_border=true&bg_color=0B1F16&title_color=39FFC1&text_color=E8FFF4" />
+</p>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     ACTIVITY GRAPH                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### `contribution --graph`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=380&height=32&lines=contribution+--graph" />
+</div>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=narlarashmika05&bg_color=0B1F16&color=39FFC1&line=6FBF9B&point=E8FFF4&area=true&area_color=39FFC122&hide_border=true" width="100%"/>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                         FEATURED PROJECTS                           -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### `featured --projects`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=380&height=32&lines=featured+--projects" />
+</div>
 
 <table>
 <tr>
@@ -132,11 +150,9 @@ Full-stack platform with secure auth, DSA progress tracking, and mock assessment
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     TROPHIES / ACHIEVEMENTS                         -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### `achievements --trophies`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=420&height=32&lines=achievements+--trophies" />
+</div>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=narlarashmika05&no-frame=true&no-bg=true&margin-w=4&column=7&theme=algolia" />
@@ -151,11 +167,9 @@ Full-stack platform with secure auth, DSA progress tracking, and mock assessment
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                        SNAKE ANIMATION                              -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### `watch the garden grow`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=13&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=440&height=30&lines=watch+the+garden+grow" />
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/output/github-contribution-grid-snake-dark.svg" />
@@ -163,15 +177,13 @@ Full-stack platform with secure auth, DSA progress tracking, and mock assessment
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/narlarashmika05/narlarashmika05/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-> This animation requires a one-time GitHub Actions setup — see the note below.
+> Requires a one-time GitHub Actions setup to generate the snake SVGs.
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     CONNECT / SOCIAL                                -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-### `./connect --with-me`
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=1&pause=999999&color=39FFC1&background=00000000&center=true&vCenter=true&width=380&height=32&lines=./connect+--with-me" />
+</div>
 
 <p align="center">
   <a href="https://github.com/narlarashmika05">
@@ -191,7 +203,7 @@ Full-stack platform with secure auth, DSA progress tracking, and mock assessment
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&size=13&duration=4000&pause=2000&color=6FBF9B&background=00000000&center=true&vCenter=true&width=400&height=30&lines=thanks+for+stopping+by" alt="footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=11&duration=1&pause=999999&color=6FBF9B&background=00000000&center=true&vCenter=true&width=400&height=28&lines=thanks+for+stopping+by" alt="footer" />
 
 ![Profile Views](https://komarev.com/ghpvc/?username=narlarashmika05&color=39FFC1&style=for-the-badge&label=VISITORS)
 
