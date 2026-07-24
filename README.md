@@ -1,3 +1,6 @@
+
+
+
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
@@ -26,7 +29,7 @@
 
   PLACEHOLDER — replace this whole line by dragging your file in step 2 above:
 -->
-[drag your video here via GitHub's editor — see comment above]
+https://github.com/user-attachments/assets/4298ebbc-ce6f-4b16-badb-5d4770e27c8b
 
 </div>
 
